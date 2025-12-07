@@ -3,7 +3,7 @@ layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, CAPSLOCK, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''',
     LSHFT, Z, X, C, V, B, MUTE, Ctl++, N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, SPACE, ENTER, raise, RCTRL, RALT, RGUI]
   lower:
-  - {t: ▽, type: trans}
+  - BT CLR ALL
   - F1
   - F2
   - F3
@@ -27,7 +27,7 @@ layers:
   - (
   - )
   - F12
-  - {t: ▽, type: trans}
+  - '&sys_reset'
   - '!'
   - '@'
   - '#'
